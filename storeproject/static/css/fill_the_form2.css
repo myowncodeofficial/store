@@ -1,0 +1,116 @@
+body,html {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+
+.head{
+    height:110px;
+}
+
+.container-fluid{
+    min-height:100%;
+}
+
+
+nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+}
+
+nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            display: inline-block;
+}
+
+.homebtn{
+            align-items:center;
+            justify-content:center;
+            display:flex;
+            height: 160vh;
+            margin: 0;
+
+}
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width:200px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    outline:none;
+    border:1px solid #ddd;
+}
+
+input[type="radio"] {
+      margin-right: 15px;
+}
+
+select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      outline: none;
+      border: 1px solid #ccc; /* Adding a border for better visibility, you can adjust the style as needed */
+
+
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cnfrmmsg{
+height:50px;
+
+align-items:center;
+justify-content:center;
+display:flex;
+}
+.rtnmsg{
+height:50px;
+
+align-items:center;
+justify-content:center;
+display:flex;
+}
+
+.footer{
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    color:white;
+    background-color:#333;
+    height:250px;
+}
+
+.my_footer p{
+    font-size:14px;
+}

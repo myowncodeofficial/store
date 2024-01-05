@@ -1,0 +1,10 @@
+
+{% extends 'base.html' %}
+{% block content %}
+<div class="homebtn col-9 col-sm-12 col-md-4 col-md-12 col-lg-4">
+    <form action="{% url 'storeapp:login' %}" method="post">
+        {% csrf_token %}
+        <button>Click me</button>
+    </form>
+</div>
+{% endblock %}
